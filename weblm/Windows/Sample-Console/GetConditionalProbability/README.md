@@ -3,14 +3,14 @@ Web Language Model (WebLM) Sample Application
 
 GetConditionalProbability is sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
 
-This tool shows you the conditional probability of a give word in a context.
-You can specify multiple phrases by separating them with a double-hyphen.
+This tool shows the conditional probability of a word in a given context (phrase).
 
 ```
-usage: GetJointProbability -key {key} -model {model} -order {order} {phrase} [-- {phrase}]*
+usage: GetConditionalProbability -key {key} -model {model} -order {order} -word {word} {phrase} [-- [-word {word}] {phrase}]*
         -key     - API key (Required)
         -model   - Name of the language model (Optional, default="Title")
         -order   - Order of language model (Optional, default="5")
+        -word    - Word for which the probability is computed (Required)
 ```
 
 To start, you must first create a [Microsoft Azure](<https://azure.microsoft.com>) account.  
