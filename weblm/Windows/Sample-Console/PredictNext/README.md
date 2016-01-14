@@ -1,9 +1,9 @@
 Web Language Model (WebLM) Sample Application
 ========================
 
-PredictNext is sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
+PredictNext is a sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
 
-This tool will list a set of candidate words predicted to follow a given phrase.
+This tool will list a set of candidate words predicted to follow a given phrase, along with the probability.
 
 ```
 usage: PredictNext -key {key} -model {model} -order {order} -max {max} {phrase}
@@ -23,8 +23,6 @@ suggestions. Feel free to file issues on the repo and we'll address them as we c
 Rules & Guidelines](</CONTRIBUTING.md>).
 
 For questions, feedback, or suggestions about Project Oxford services, reach out to us directly on our [Project Oxford Forums](<https://social.msdn.microsoft.com/forums/azure/en-US/home?forum=mlapi>).
-
-
 
 License
 =======

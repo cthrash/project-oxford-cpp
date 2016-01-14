@@ -1,7 +1,7 @@
 Web Language Model (WebLM) Sample Application
 ========================
 
-WordSplitter is sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
+WordSplitter is a sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
 
 This tool shows you to use the breakIntoWords method.
 
@@ -23,8 +23,6 @@ suggestions. Feel free to file issues on the repo and we'll address them as we c
 Rules & Guidelines](</CONTRIBUTING.md>).
 
 For questions, feedback, or suggestions about Project Oxford services, reach out to us directly on our [Project Oxford Forums](<https://social.msdn.microsoft.com/forums/azure/en-US/home?forum=mlapi>).
-
-
 
 License
 =======

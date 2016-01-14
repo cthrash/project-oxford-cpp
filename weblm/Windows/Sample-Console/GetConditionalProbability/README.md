@@ -1,7 +1,7 @@
 Web Language Model (WebLM) Sample Application
 ========================
 
-GetConditionalProbability is sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
+GetConditionalProbability is a sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
 
 This tool shows the conditional probability of a word in a given context (phrase).
 

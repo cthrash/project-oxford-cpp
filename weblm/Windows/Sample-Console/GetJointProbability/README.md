@@ -1,7 +1,7 @@
 Web Language Model (WebLM) Sample Application
 ========================
 
-GetConditionalProbability is sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
+GetJointProbability is a sample command-line tool to demonstrate the use of the [Project Oxford](<https://projectoxford.ai>) C++ WebLM ClientLibrary.
 
 This tool shows you the conditional probability of a give word in a context.
 You can specify multiple phrases by separating them with a double-hyphen.
